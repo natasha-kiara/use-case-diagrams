@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="llo0r_avCpRBpbE9xumy-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Main Objects:&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;p&gt;Customer&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Order service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inventory system&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Payment gateway&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notification service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Shipping servive&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Ideal Main Flow of Events:&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;• Customer initiates order placement&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order service checks the item availability in inventory system&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order service processes the payment bu communicating with the payment gateway&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment is confirmed then order service updates the order status and requests shipping service to pack and ship the order&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;shipping service confirms the packing and shipment and updates the order service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;order service sends a notification to inform customer the order has been shipped&lt;/p&gt;&lt;p&gt;when order is delivered, shipping service updates the order service and final notification is sent to the customer&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="llo0r_avCpRBpbE9xumy-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Main Objects:&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;p&gt;Customer&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Order service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inventory system&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Payment gateway&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notification service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Shipping servive&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Ideal Main Flow of Events:&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;• Customer initiates order placement&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order service checks the item availability in inventory system&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order service processes the payment bu communicating with the payment gateway&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment is confirmed then order service updates the order status and requests shipping service to pack and ship the order&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;shipping service confirms the packing and shipment and updates the order service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;order service sends a notification to inform customer the order has been shipped&lt;/p&gt;&lt;p&gt;when order is delivered, shipping service updates the order service and final notification is sent to the customer&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="50" y="-420" width="820" height="420" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
@@ -374,10 +374,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="160" y="640" width="20" height="590" as="geometry" />
+          <mxGeometry x="160" y="550" width="20" height="920" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-16" value="order service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="450" y="640" width="100" height="580" as="geometry" />
+          <mxGeometry x="450" y="550" width="100" height="900" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-132" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-16">
           <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
@@ -391,115 +391,166 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-16">
-          <mxGeometry x="45" y="60" width="10" height="180" as="geometry" />
+          <mxGeometry x="45" y="60" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-16">
           <mxGeometry x="45" y="310" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-21" value="item is available" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="llo0r_avCpRBpbE9xumy-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="714.5" y="760" as="sourcePoint" />
-            <mxPoint x="505" y="774.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="llo0r_avCpRBpbE9xumy-141" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-16">
+          <mxGeometry x="45" y="790" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-22" value="initates order placement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-16">
+        <mxCell id="llo0r_avCpRBpbE9xumy-22" value="initates order placement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="170" y="710" as="sourcePoint" />
-            <mxPoint x="439.5" y="710" as="targetPoint" />
+            <mxPoint x="165.5" y="630" as="sourcePoint" />
+            <mxPoint x="495" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-29" value="inventory system" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="670" y="640" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-142" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-29">
-          <mxGeometry x="45" y="90" width="10" height="50" as="geometry" />
+          <mxGeometry x="670" y="550" width="100" height="900" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-30" value="payment gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="860" y="640" width="100" height="580" as="geometry" />
+          <mxGeometry x="860" y="550" width="100" height="880" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-143" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-30">
           <mxGeometry x="45" y="160" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-32" value="check item availability" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-29">
+        <mxCell id="llo0r_avCpRBpbE9xumy-32" value="check item availability" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-142">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="740" as="sourcePoint" />
-            <mxPoint x="660" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-35" value="process payment" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="llo0r_avCpRBpbE9xumy-16" target="llo0r_avCpRBpbE9xumy-143">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="505" y="810" as="sourcePoint" />
-            <mxPoint x="900" y="810" as="targetPoint" />
+            <mxPoint x="505" y="670" as="sourcePoint" />
+            <mxPoint x="710" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-127" value="shipping service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1300" y="640" width="100" height="580" as="geometry" />
+          <mxGeometry x="1300" y="550" width="100" height="910" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-144" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-127">
           <mxGeometry x="45" y="310" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-128" value="notification service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1060" y="640" width="100" height="600" as="geometry" />
+          <mxGeometry x="1060" y="550" width="100" height="920" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-145" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-128">
           <mxGeometry x="45" y="380" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-146" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-128">
-          <mxGeometry x="45" y="510" width="10" height="60" as="geometry" />
+          <mxGeometry x="48" y="720" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-129" value="confirm payment" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="902" y="840" as="sourcePoint" />
-            <mxPoint x="510" y="840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-134" value="request packing and shipping of order" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-127">
+        <mxCell id="llo0r_avCpRBpbE9xumy-134" value="request packing and shipping of order" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="960" as="sourcePoint" />
-            <mxPoint x="1320" y="960" as="targetPoint" />
+            <mxPoint x="500" y="1200" as="sourcePoint" />
+            <mxPoint x="1349.5" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-135" value="confirm packing and shipment" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1349.5" y="990" as="sourcePoint" />
-            <mxPoint x="499.5" y="990" as="targetPoint" />
+            <mxPoint x="1355" y="1240" as="sourcePoint" />
+            <mxPoint x="505" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-136" value="order has been shipped" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="llo0r_avCpRBpbE9xumy-136" value="order has been shipped" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="llo0r_avCpRBpbE9xumy-146">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1109.5" y="1070" as="sourcePoint" />
-            <mxPoint x="169.5" y="1070" as="targetPoint" />
+            <mxPoint x="1120" y="1320" as="sourcePoint" />
+            <mxPoint x="180" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-137" value="send notification to customer order has been shipped" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-128">
+        <mxCell id="llo0r_avCpRBpbE9xumy-137" value="send notification to customer order has been shipped" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="1030" as="sourcePoint" />
-            <mxPoint x="915" y="1030" as="targetPoint" />
+            <mxPoint x="498.5" y="1280" as="sourcePoint" />
+            <mxPoint x="1108" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-138" value="order has been delivered" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1349.5" y="1110" as="sourcePoint" />
-            <mxPoint x="499.5" y="1110" as="targetPoint" />
+            <mxPoint x="1355" y="1360" as="sourcePoint" />
+            <mxPoint x="505" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-139" value="send notification to customer order has been delivered" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="llo0r_avCpRBpbE9xumy-16" target="llo0r_avCpRBpbE9xumy-128">
+        <mxCell id="llo0r_avCpRBpbE9xumy-139" value="send notification to customer order has been delivered" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="510" y="1160" as="sourcePoint" />
-            <mxPoint x="1120" y="1160" as="targetPoint" />
+            <mxPoint x="505" y="1380" as="sourcePoint" />
+            <mxPoint x="1115" y="1380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="1160" />
+              <mxPoint x="815.5" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="llo0r_avCpRBpbE9xumy-140" value="order has been delivered" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1109.5" y="1210" as="sourcePoint" />
-            <mxPoint x="169.5" y="1210" as="targetPoint" />
+            <mxPoint x="1110" y="1420" as="sourcePoint" />
+            <mxPoint x="170" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="llo0r_avCpRBpbE9xumy-141" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="495" y="1100" width="10" height="60" as="geometry" />
+        <mxCell id="llo0r_avCpRBpbE9xumy-165" value="" style="swimlane;startSize=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="505" y="690" width="405" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-35" value="process payment" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="llo0r_avCpRBpbE9xumy-165">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-0.5" y="44.5" as="sourcePoint" />
+            <mxPoint x="405" y="44.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-142" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="llo0r_avCpRBpbE9xumy-165">
+          <mxGeometry x="210" y="-30" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-169" value="item is available" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="llo0r_avCpRBpbE9xumy-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214.5" y="30" as="sourcePoint" />
+            <mxPoint y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-171" value="confirm payment" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="llo0r_avCpRBpbE9xumy-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412.5" y="80" as="sourcePoint" />
+            <mxPoint x="10" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-168" value="" style="swimlane;startSize=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="840" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-167" value="item is unavailable" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="llo0r_avCpRBpbE9xumy-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="44.5" as="sourcePoint" />
+            <mxPoint x="-4.5" y="44.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-166" value="item is unavailable" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="llo0r_avCpRBpbE9xumy-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.5" y="30" as="sourcePoint" />
+            <mxPoint x="335" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-21" value="item is available" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="719.5" y="999.5" as="sourcePoint" />
+            <mxPoint x="505" y="999.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-170" value="process payment" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="504.5" y="1040" as="sourcePoint" />
+            <mxPoint x="910" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-129" value="payment failed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="907.5" y="1070" as="sourcePoint" />
+            <mxPoint x="505" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-172" value="payment failed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="1100" as="sourcePoint" />
+            <mxPoint x="170" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-173" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="llo0r_avCpRBpbE9xumy-146">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1120" y="1320" as="sourcePoint" />
+            <mxPoint x="180" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llo0r_avCpRBpbE9xumy-178" value="" style="swimlane;startSize=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="970" width="740" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
