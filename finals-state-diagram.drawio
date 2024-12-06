@@ -5,11 +5,11 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="60" y="110" width="30" height="30" as="geometry" />
+          <mxGeometry x="60" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="9U3KtG-cp8fkpg_vPS3K-1" parent="1">
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.4;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="9U3KtG-cp8fkpg_vPS3K-1" parent="1" target="9U3KtG-cp8fkpg_vPS3K-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="200" as="targetPoint" />
+            <mxPoint x="75" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -25,10 +25,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-6" value="place order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="160" width="60" height="30" as="geometry" />
+          <mxGeometry x="90" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-7" value="pack order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-7" value="pack order for shipping" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-8" value="packed order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="330" width="110" height="50" as="geometry" />
@@ -39,17 +39,11 @@
             <mxPoint x="89" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-10" value="ship order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="400" width="60" height="30" as="geometry" />
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-10" value="ship order to customer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-12" value="complete delivery" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="850" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="320" y="830" as="sourcePoint" />
-            <mxPoint x="320" y="910" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="230" y="850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-14" value="delivered order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="910" width="110" height="50" as="geometry" />
@@ -90,10 +84,10 @@
             <mxPoint x="230" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-26" value="retrieve order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-26" value="order damage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
           <mxGeometry x="150" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9U3KtG-cp8fkpg_vPS3K-27" value="inexsiting order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-27" value="damaged order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
           <mxGeometry x="230" y="40" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9U3KtG-cp8fkpg_vPS3K-23" source="9U3KtG-cp8fkpg_vPS3K-27" target="9U3KtG-cp8fkpg_vPS3K-29">
@@ -103,10 +97,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-29" value="canceled order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
-          <mxGeometry x="180" y="170" width="110" height="50" as="geometry" />
+          <mxGeometry x="225" y="165" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-30" value="cancel order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
-          <mxGeometry x="200" y="100" width="60" height="30" as="geometry" />
+          <mxGeometry x="225" y="110" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-34" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.573;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9U3KtG-cp8fkpg_vPS3K-23" source="9U3KtG-cp8fkpg_vPS3K-29" target="9U3KtG-cp8fkpg_vPS3K-36">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -115,15 +109,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-35" value="refund" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
-          <mxGeometry x="165" y="230" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="230" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-36" value="completed order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
-          <mxGeometry x="150" y="290" width="110" height="50" as="geometry" />
+          <mxGeometry x="210" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9U3KtG-cp8fkpg_vPS3K-23" source="9U3KtG-cp8fkpg_vPS3K-24" target="9U3KtG-cp8fkpg_vPS3K-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="70" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-44" value="order delay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
+          <mxGeometry x="80" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-45" value="delayed order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="9U3KtG-cp8fkpg_vPS3K-23">
+          <mxGeometry x="20" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-39" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U3KtG-cp8fkpg_vPS3K-19" target="9U3KtG-cp8fkpg_vPS3K-3">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="1040" as="sourcePoint" />
             <mxPoint x="500" y="1033" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-41" value="pending order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U3KtG-cp8fkpg_vPS3K-41" target="9U3KtG-cp8fkpg_vPS3K-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="74.5" y="120" as="sourcePoint" />
+            <mxPoint x="74.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9U3KtG-cp8fkpg_vPS3K-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U3KtG-cp8fkpg_vPS3K-45" target="9U3KtG-cp8fkpg_vPS3K-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="294.5" y="650" as="sourcePoint" />
+            <mxPoint x="295" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
