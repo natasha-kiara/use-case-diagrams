@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="80" width="30" height="30" as="geometry" />
+          <mxGeometry x="520" y="1020" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9U3KtG-cp8fkpg_vPS3K-4" value="confirmed order" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="200" width="110" height="50" as="geometry" />
